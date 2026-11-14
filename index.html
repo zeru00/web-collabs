@@ -1,0 +1,1572 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vibeats × Frame Your Memories | Official Collabs Keychain</title>
+  <meta name="description" content="Kolaborasi eksklusif Vibeats Keychain (Akrilik Spotify Barcode) & Frame Your Memories (Handmade Flannel Photobooth Frame). Custom gantungan kunci unik sesukamu!">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&family=Syne:wght@600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+            display: ['"Syne"', 'sans-serif'],
+            mono: ['"Space Grotesk"', 'monospace'],
+          },
+          colors: {
+            space: {
+              950: '#060713',
+              900: '#0c0d1d',
+              850: '#111227',
+              800: '#181a36',
+              700: '#23264d',
+            },
+            moonlight: {
+              red: '#ff2d60',
+              redDark: '#991b1b',
+              burgundy: '#580c29',
+              burgundyLight: '#831843',
+              purple: '#7e22ce',
+              purpleDeep: '#3b0764',
+              blue: '#2563eb',
+              cyan: '#38bdf8',
+              blueDark: '#1e3a8a',
+            }
+          },
+          animation: {
+            'glow-pulse': 'glowPulse 6s ease-in-out infinite',
+            'float-slow': 'floatSlow 7s ease-in-out infinite',
+            'float-reverse': 'floatReverse 8s ease-in-out infinite',
+            'shimmer': 'shimmer 2.5s infinite linear',
+            'spin-slow': 'spin 18s linear infinite',
+          },
+          keyframes: {
+            glowPulse: {
+              '0%, 100%': { opacity: '0.45', transform: 'scale(1)' },
+              '50%': { opacity: '0.75', transform: 'scale(1.08)' },
+            },
+            floatSlow: {
+              '0%, 100%': { transform: 'translateY(0px) rotate(0deg)' },
+              '50%': { transform: 'translateY(-14px) rotate(2deg)' },
+            },
+            floatReverse: {
+              '0%, 100%': { transform: 'translateY(0px) rotate(0deg)' },
+              '50%': { transform: 'translateY(14px) rotate(-2deg)' },
+            },
+            shimmer: {
+              '0%': { backgroundPosition: '-200% 0' },
+              '100%': { backgroundPosition: '200% 0' },
+            }
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-space-950 text-slate-100 antialiased overflow-x-hidden selection:bg-moonlight-red selection:text-white relative min-h-screen">
+
+  <!-- Ambient Moonlight Gradient Background Orbs -->
+  <div class="fixed inset-0 pointer-events-none z-0 overflow-hidden">
+    <!-- Red Moonlight Aura (Top Left) -->
+    <div class="absolute -top-[18%] -left-[10%] w-[580px] h-[580px] md:w-[750px] md:h-[750px] rounded-full bg-gradient-to-br from-moonlight-red/35 via-moonlight-burgundy/40 to-transparent blur-[125px] animate-glow-pulse"></div>
+    
+    <!-- Blue Moonlight Aura (Top Right) -->
+    <div class="absolute -top-[12%] -right-[12%] w-[600px] h-[600px] md:w-[800px] md:h-[800px] rounded-full bg-gradient-to-bl from-moonlight-cyan/25 via-moonlight-blue/35 to-transparent blur-[140px] animate-glow-pulse" style="animation-delay: 2.5s;"></div>
+
+    <!-- Purple & Burgundy Mid Aura -->
+    <div class="absolute top-[45%] left-[25%] -translate-x-1/2 w-[650px] h-[550px] rounded-full bg-gradient-to-r from-moonlight-purpleDeep/35 via-moonlight-burgundy/30 to-moonlight-blueDark/25 blur-[160px] animate-float-slow"></div>
+
+    <!-- Deep Red Moonlight (Bottom Right) -->
+    <div class="absolute bottom-[-10%] right-[-5%] w-[500px] h-[500px] rounded-full bg-gradient-to-tl from-moonlight-red/25 via-moonlight-purple/30 to-transparent blur-[130px]"></div>
+
+    <!-- Grid Texture Overlay -->
+    <div class="absolute inset-0 bg-grid-pattern opacity-25"></div>
+  </div>
+
+  <!-- Top Announcement Bar (Promo Highlight) -->
+  <div class="relative z-50 bg-gradient-to-r from-moonlight-burgundy via-moonlight-purpleDeep to-moonlight-blueDark text-xs md:text-sm py-2 px-4 border-b border-white/10 shadow-lg">
+    <div class="max-w-7xl mx-auto flex items-center justify-between gap-4">
+      <div class="flex items-center gap-2 overflow-hidden whitespace-nowrap">
+        <span class="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full bg-white/15 text-white font-semibold text-[11px] uppercase tracking-wider backdrop-blur-md">
+          <i data-lucide="sparkles" class="w-3 h-3 text-pink-300"></i> Special Collabs
+        </span>
+        <p class="truncate text-slate-200">
+          ✨ <strong class="text-white">PROMO COMBO:</strong> 1 Acrylic Spotify + 1 Flannel Photobooth cuma <span class="text-pink-300 font-bold">Rp 49.000</span> (Hemat 20%)!
+        </p>
+      </div>
+      <div class="hidden sm:flex items-center gap-4 text-slate-300 text-xs shrink-0">
+        <span class="flex items-center gap-1"><i data-lucide="check-circle" class="w-3.5 h-3.5 text-emerald-400"></i> 100% Bisa Custom Foto & Desain</span>
+        <a href="#promo-section" class="text-pink-300 hover:text-white underline font-medium">Lihat Semua Promo &rarr;</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Navigation Bar -->
+  <header class="sticky top-0 z-40 backdrop-blur-xl bg-space-950/75 border-b border-white/[0.08] transition-all duration-300" id="main-header">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+      
+      <!-- Logo Collab -->
+      <a href="#" class="flex items-center gap-3 group">
+        <div class="relative flex items-center">
+          <!-- Vibeats Icon Ring -->
+          <div class="w-10 h-10 rounded-xl bg-gradient-to-br from-moonlight-red to-moonlight-burgundy p-0.5 shadow-lg shadow-moonlight-red/25 group-hover:scale-105 transition-transform">
+            <div class="w-full h-full bg-space-900 rounded-[10px] flex items-center justify-center">
+              <i data-lucide="music-2" class="w-5 h-5 text-moonlight-red"></i>
+            </div>
+          </div>
+          <!-- Collab Cross Symbol -->
+          <div class="-ml-2 w-5 h-5 rounded-full bg-space-800 border border-white/20 flex items-center justify-center text-[10px] font-bold text-slate-300 z-10 shadow-sm">
+            ×
+          </div>
+          <!-- Frame Memories Icon Ring -->
+          <div class="-ml-2 w-10 h-10 rounded-xl bg-gradient-to-br from-moonlight-blue to-moonlight-cyan p-0.5 shadow-lg shadow-moonlight-blue/25 group-hover:scale-105 transition-transform">
+            <div class="w-full h-full bg-space-900 rounded-[10px] flex items-center justify-center">
+              <i data-lucide="images" class="w-5 h-5 text-moonlight-cyan"></i>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div class="flex items-center gap-1.5">
+            <span class="font-display font-bold tracking-tight text-base sm:text-lg bg-gradient-to-r from-moonlight-red via-pink-400 to-rose-300 bg-clip-text text-transparent">Vibeats</span>
+            <span class="text-slate-400 text-xs font-mono">×</span>
+            <span class="font-display font-bold tracking-tight text-base sm:text-lg bg-gradient-to-r from-sky-400 via-moonlight-blue to-indigo-300 bg-clip-text text-transparent">Frame Your Memories</span>
+          </div>
+          <p class="text-[10px] text-slate-400 font-mono tracking-wider uppercase">Keychain Collab Project</p>
+        </div>
+      </a>
+
+      <!-- Desktop Nav Links -->
+      <nav class="hidden md:flex items-center gap-7 text-sm font-medium text-slate-300">
+        <a href="#about-collab" class="hover:text-white transition-colors">Tentang Kami</a>
+        <a href="#catalog-section" class="hover:text-white transition-colors">Koleksi Produk</a>
+        <a href="#interactive-preview" class="hover:text-pink-300 transition-colors flex items-center gap-1.5">
+          <span class="w-2 h-2 rounded-full bg-pink-500 animate-ping"></span>
+          Coba Preview Custom
+        </a>
+        <a href="#promo-section" class="hover:text-white transition-colors">Promo & Bundling</a>
+        <a href="#how-to-order" class="hover:text-white transition-colors">Cara Pesan</a>
+      </nav>
+
+      <!-- Customer Service Action CTA Dropdown / Modal Trigger -->
+      <div class="flex items-center gap-3">
+        <button onclick="openCsRoutingModal()" class="relative group px-4 py-2.5 rounded-xl bg-gradient-to-r from-moonlight-red via-moonlight-purple to-moonlight-blue text-white font-semibold text-xs sm:text-sm shadow-lg shadow-purple-900/40 hover:shadow-pink-600/30 transition-all duration-300 hover:scale-[1.03] active:scale-[0.98] flex items-center gap-2 border border-white/20">
+          <i data-lucide="message-circle" class="w-4 h-4 text-emerald-300"></i>
+          <span>Hubungi CS Brand</span>
+          <i data-lucide="chevron-down" class="w-3.5 h-3.5 text-slate-300 group-hover:translate-y-0.5 transition-transform"></i>
+        </button>
+
+        <!-- Mobile Menu Toggle Button -->
+        <button id="mobile-menu-btn" onclick="toggleMobileMenu()" class="md:hidden p-2.5 rounded-xl bg-white/5 border border-white/10 text-slate-300 hover:text-white">
+          <i data-lucide="menu" id="menu-icon" class="w-5 h-5"></i>
+        </button>
+      </div>
+
+    </div>
+
+    <!-- Mobile Navigation Drawer -->
+    <div id="mobile-nav" class="hidden md:hidden bg-space-900/95 backdrop-blur-2xl border-b border-white/10 px-6 py-6 space-y-4">
+      <div class="flex flex-col space-y-3 text-sm font-medium">
+        <a href="#about-collab" onclick="toggleMobileMenu()" class="py-2 text-slate-300 hover:text-white border-b border-white/5">Tentang Brand Kami</a>
+        <a href="#catalog-section" onclick="toggleMobileMenu()" class="py-2 text-slate-300 hover:text-white border-b border-white/5">Koleksi Produk & Tag Harga</a>
+        <a href="#interactive-preview" onclick="toggleMobileMenu()" class="py-2 text-pink-300 font-semibold border-b border-white/5 flex items-center justify-between">
+          <span>Coba Live Customizer</span>
+          <span class="px-2 py-0.5 rounded bg-pink-500/20 text-pink-300 text-xs">Interactive</span>
+        </a>
+        <a href="#promo-section" onclick="toggleMobileMenu()" class="py-2 text-slate-300 hover:text-white border-b border-white/5">Promo Brand & Bundling</a>
+        <a href="#how-to-order" onclick="toggleMobileMenu()" class="py-2 text-slate-300 hover:text-white">Cara Pemesanan Custom</a>
+      </div>
+      <div class="pt-2 grid grid-cols-2 gap-2">
+        <button onclick="directToBrandCs('vibeats', 'Umum')" class="w-full py-2.5 px-3 rounded-lg bg-gradient-to-r from-moonlight-red to-moonlight-burgundy text-white text-xs font-semibold flex items-center justify-center gap-1.5 shadow-md">
+          <i data-lucide="music-2" class="w-3.5 h-3.5"></i> CS Vibeats
+        </button>
+        <button onclick="directToBrandCs('frame', 'Umum')" class="w-full py-2.5 px-3 rounded-lg bg-gradient-to-r from-moonlight-blue to-moonlight-cyan text-white text-xs font-semibold flex items-center justify-center gap-1.5 shadow-md">
+          <i data-lucide="images" class="w-3.5 h-3.5"></i> CS Frame Memories
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO SECTION: Split Moonlight Universe -->
+  <section class="relative z-10 pt-10 pb-20 lg:pt-16 lg:pb-28 overflow-hidden">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <!-- Top Badges -->
+      <div class="flex flex-wrap items-center justify-center gap-2.5 mb-6">
+        <span class="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-full text-xs font-mono font-medium bg-moonlight-burgundy/40 text-pink-300 border border-pink-500/30 backdrop-blur-md shadow-sm">
+          <i data-lucide="sparkles" class="w-3.5 h-3.5 text-moonlight-red"></i> Red Moonlight × Blue Moonlight Edition
+        </span>
+        <span class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-mono font-medium bg-white/5 text-slate-300 border border-white/10 backdrop-blur-md">
+          <i data-lucide="palette" class="w-3.5 h-3.5 text-cyan-400"></i> 100% Free Custom Desain
+        </span>
+      </div>
+
+      <!-- Main Headline -->
+      <div class="text-center max-w-4xl mx-auto">
+        <h1 class="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-display font-extrabold tracking-tight leading-[1.1] mb-6">
+          Abadikan Lagu Favorit &
+          <span class="block mt-2 bg-gradient-to-r from-moonlight-red via-pink-400 via-purple-300 via-sky-400 to-moonlight-blue bg-clip-text text-transparent drop-shadow-sm">
+            Momen Berhargamu
+          </span>
+        </h1>
+        <p class="text-base sm:text-lg md:text-xl text-slate-300 font-light max-w-2xl mx-auto leading-relaxed mb-10">
+          Dua brand gantungan kunci favorit berkolaborasi dalam satu wadah. Pilih <strong class="text-pink-400 font-medium">Akrilik Spotify Barcode</strong> dari <span class="underline decoration-pink-500/50">Vibeats</span> atau <strong class="text-sky-400 font-medium">Handmade Flannel Photobooth Frame</strong> dari <span class="underline decoration-sky-500/50">Frame Your Memories</span>.
+        </p>
+
+        <!-- CTA Buttons -->
+        <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+          <a href="#catalog-section" class="w-full sm:w-auto px-7 py-3.5 rounded-2xl bg-gradient-to-r from-moonlight-red via-moonlight-purple to-moonlight-blue hover:brightness-110 text-white font-semibold text-base shadow-xl shadow-moonlight-burgundy/30 transition-all transform hover:-translate-y-0.5 flex items-center justify-center gap-2.5">
+            <i data-lucide="shopping-bag" class="w-5 h-5"></i>
+            <span>Jelajahi Koleksi & Harga</span>
+          </a>
+          <a href="#interactive-preview" class="w-full sm:w-auto px-6 py-3.5 rounded-2xl bg-white/[0.06] hover:bg-white/[0.12] border border-white/15 text-slate-200 hover:text-white font-medium text-base backdrop-blur-xl transition-all flex items-center justify-center gap-2">
+            <i data-lucide="wand-2" class="w-5 h-5 text-pink-400"></i>
+            <span>Coba Desain Sendiri (Preview)</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- DUAL BRAND VISUAL SHOWCASE (Interactive Split Cards) -->
+      <div class="mt-16 grid grid-cols-1 lg:grid-cols-2 gap-8 items-stretch">
+        
+        <!-- BRAND 1 CARD: VIBEATS KEYCHAIN -->
+        <div class="group relative rounded-3xl p-6 sm:p-8 bg-gradient-to-b from-space-900/90 via-space-900/70 to-space-950/90 border border-moonlight-red/30 shadow-2xl shadow-moonlight-burgundy/25 backdrop-blur-2xl overflow-hidden hover:border-moonlight-red/60 transition-all duration-500 flex flex-col justify-between">
+          <!-- Ambient Glow inside card -->
+          <div class="absolute -top-24 -left-24 w-60 h-60 bg-moonlight-red/20 rounded-full blur-3xl pointer-events-none group-hover:bg-moonlight-red/35 transition-all"></div>
+          <div class="absolute top-0 right-0 p-6 pointer-events-none">
+            <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-mono font-semibold bg-moonlight-red/20 text-pink-300 border border-moonlight-red/40">
+              <i data-lucide="scan" class="w-3.5 h-3.5"></i> Scannable Spotify
+            </span>
+          </div>
+
+          <div>
+            <!-- Brand Tag & Name -->
+            <div class="flex items-center gap-3 mb-4">
+              <div class="w-12 h-12 rounded-2xl bg-gradient-to-tr from-moonlight-red to-moonlight-burgundy flex items-center justify-center shadow-lg shadow-moonlight-red/30">
+                <i data-lucide="music-2" class="w-6 h-6 text-white"></i>
+              </div>
+              <div>
+                <span class="text-xs uppercase tracking-widest font-mono text-pink-400 font-semibold">Brand 01</span>
+                <h2 class="text-2xl sm:text-3xl font-display font-bold text-white">Vibeats Keychain</h2>
+              </div>
+            </div>
+
+            <p class="text-slate-300 text-sm leading-relaxed mb-6">
+              Gantungan kunci akrilik premium jernih tebal 3mm dengan kertas foto resolusi ultra-tinggi yang memuat cover album, lirik, judul lagu, dan <strong class="text-white">Spotify Barcode asli</strong> yang bisa di-scan langsung lewat aplikasi Spotify!
+            </p>
+
+            <!-- Visual Mockup Representation: Acrylic Spotify Keychain -->
+            <div class="relative mx-auto my-4 w-full max-w-xs p-5 rounded-2xl bg-white/[0.04] border border-white/20 backdrop-blur-md shadow-inner transition-transform group-hover:scale-[1.02]">
+              <!-- Keychain Hook Simulation -->
+              <div class="absolute -top-6 left-1/2 -translate-x-1/2 flex flex-col items-center">
+                <div class="w-7 h-7 rounded-full border-4 border-slate-300 shadow-md"></div>
+                <div class="w-1.5 h-3 bg-slate-300 -mt-1"></div>
+                <div class="w-4 h-4 rounded-full border-2 border-slate-300 -mt-1"></div>
+              </div>
+
+              <!-- Acrylic Container -->
+              <div class="acrylic-glass rounded-xl p-3.5 text-center relative overflow-hidden shadow-2xl mt-4">
+                <!-- Gloss Reflection Line -->
+                <div class="absolute -inset-full top-0 bg-gradient-to-r from-transparent via-white/20 to-transparent skew-x-[-25deg] group-hover:translate-x-[200%] transition-transform duration-1000"></div>
+                
+                <!-- Mockup Image / Cover -->
+                <div class="w-full aspect-square rounded-lg overflow-hidden bg-space-950 relative mb-3 group-hover:shadow-lg transition-all">
+                  <img src="https://images.unsplash.com/photo-1518609878373-06d740f60d8b?auto=format&fit=crop&w=600&q=80" alt="Spotify Keychain Mockup" class="w-full h-full object-cover">
+                  <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent flex items-end p-2.5">
+                    <span class="text-[10px] text-white/90 font-mono tracking-tight flex items-center gap-1">
+                      <i data-lucide="heart" class="w-3 h-3 text-moonlight-red fill-moonlight-red"></i> Lagu Favorit Kita
+                    </span>
+                  </div>
+                </div>
+
+                <!-- Song Details -->
+                <div class="text-left px-1">
+                  <div class="flex items-center justify-between">
+                    <div>
+                      <h4 class="text-xs font-bold text-white truncate">Double Take</h4>
+                      <p class="text-[10px] text-slate-400 truncate">dhruv • Vibeats Special</p>
+                    </div>
+                    <i data-lucide="play" class="w-4 h-4 text-emerald-400 fill-emerald-400"></i>
+                  </div>
+
+                  <!-- Spotify Sound Wave Barcode Simulation -->
+                  <div class="mt-2.5 p-1.5 rounded-md bg-black/70 flex items-center justify-between gap-0.5">
+                    <i data-lucide="disc" class="w-3 h-3 text-emerald-400 shrink-0"></i>
+                    <!-- Spotify Wave Bars -->
+                    <div class="flex items-center gap-[2px] h-3.5 w-full justify-center px-1">
+                      <div class="w-[2px] h-2 bg-white rounded-full"></div>
+                      <div class="w-[2px] h-3 bg-white rounded-full"></div>
+                      <div class="w-[2px] h-1.5 bg-white rounded-full"></div>
+                      <div class="w-[2px] h-3.5 bg-white rounded-full"></div>
+                      <div class="w-[2px] h-2 bg-white rounded-full"></div>
+                      <div class="w-[2px] h-3 bg-white rounded-full"></div>
+                      <div class="w-[2px] h-1 bg-white rounded-full"></div>
+                      <div class="w-[2px] h-3 bg-white rounded-full"></div>
+                      <div class="w-[2px] h-2 bg-white rounded-full"></div>
+                      <div class="w-[2px] h-3.5 bg-white rounded-full"></div>
+                      <div class="w-[2px] h-1.5 bg-white rounded-full"></div>
+                      <div class="w-[2px] h-3 bg-white rounded-full"></div>
+                      <div class="w-[2px] h-2 bg-white rounded-full"></div>
+                    </div>
+                    <span class="text-[8px] font-mono text-emerald-400 font-bold shrink-0">SCAN</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Features Highlights -->
+            <div class="grid grid-cols-2 gap-2 mt-4 text-xs text-slate-300">
+              <div class="flex items-center gap-1.5 p-2 rounded-xl bg-white/[0.03] border border-white/5">
+                <i data-lucide="check" class="w-3.5 h-3.5 text-moonlight-red"></i>
+                <span>Akrilik 3mm High Gloss</span>
+              </div>
+              <div class="flex items-center gap-1.5 p-2 rounded-xl bg-white/[0.03] border border-white/5">
+                <i data-lucide="check" class="w-3.5 h-3.5 text-moonlight-red"></i>
+                <span>Barcode Scan 100% Aktif</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Bottom Action: Order to Vibeats CS -->
+          <div class="pt-6 mt-6 border-t border-white/10 flex items-center justify-between gap-3">
+            <div>
+              <span class="text-[11px] text-slate-400 block">Mulai dari</span>
+              <span class="text-xl font-bold font-mono text-white">Rp 22.000</span>
+            </div>
+            <button onclick="directToBrandCs('vibeats', 'Acrylic Spotify Custom')" class="px-5 py-2.5 rounded-xl bg-gradient-to-r from-moonlight-red to-moonlight-burgundy hover:brightness-110 text-white text-xs sm:text-sm font-semibold flex items-center gap-2 shadow-lg shadow-moonlight-red/25 transition-all">
+              <i data-lucide="message-circle" class="w-4 h-4"></i>
+              <span>Pesan ke CS Vibeats</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- BRAND 2 CARD: FRAME YOUR MEMORIES -->
+        <div class="group relative rounded-3xl p-6 sm:p-8 bg-gradient-to-b from-space-900/90 via-space-900/70 to-space-950/90 border border-moonlight-blue/30 shadow-2xl shadow-moonlight-blue/20 backdrop-blur-2xl overflow-hidden hover:border-moonlight-cyan/60 transition-all duration-500 flex flex-col justify-between">
+          <!-- Ambient Glow inside card -->
+          <div class="absolute -top-24 -right-24 w-60 h-60 bg-moonlight-blue/20 rounded-full blur-3xl pointer-events-none group-hover:bg-moonlight-cyan/30 transition-all"></div>
+          <div class="absolute top-0 right-0 p-6 pointer-events-none">
+            <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-mono font-semibold bg-moonlight-blue/20 text-sky-300 border border-moonlight-blue/40">
+              <i data-lucide="scissors" class="w-3.5 h-3.5"></i> 100% Handmade Felt
+            </span>
+          </div>
+
+          <div>
+            <!-- Brand Tag & Name -->
+            <div class="flex items-center gap-3 mb-4">
+              <div class="w-12 h-12 rounded-2xl bg-gradient-to-tr from-moonlight-blue to-moonlight-cyan flex items-center justify-center shadow-lg shadow-moonlight-blue/30">
+                <i data-lucide="images" class="w-6 h-6 text-white"></i>
+              </div>
+              <div>
+                <span class="text-xs uppercase tracking-widest font-mono text-sky-400 font-semibold">Brand 02</span>
+                <h2 class="text-2xl sm:text-3xl font-display font-bold text-white">Frame Your Memories</h2>
+              </div>
+            </div>
+
+            <p class="text-slate-300 text-sm leading-relaxed mb-6">
+              Gantungan kunci kain flannel kaku kualitas premium yang dijahit tangan dengan rapi membentuk frame foto booth memanjang vertikal. Berisi beberapa lembar foto estetik yang bisa diganti atau dilipat rapi!
+            </p>
+
+            <!-- Visual Mockup Representation: Handmade Felt Photobooth Frame -->
+            <div class="relative mx-auto my-4 w-full max-w-xs p-5 rounded-2xl bg-white/[0.04] border border-white/20 backdrop-blur-md shadow-inner transition-transform group-hover:scale-[1.02]">
+              <!-- Keychain Ball Chain Simulation -->
+              <div class="absolute -top-6 left-1/2 -translate-x-1/2 flex flex-col items-center">
+                <div class="w-5 h-7 rounded-full border-2 border-dashed border-amber-300/80 shadow-sm"></div>
+                <div class="w-2.5 h-2.5 rounded-full bg-amber-400 -mt-1 shadow"></div>
+              </div>
+
+              <!-- Flannel Frame Strip Simulation -->
+              <div class="felt-fabric rounded-2xl p-3 text-center relative overflow-hidden shadow-2xl mt-4 border-2 border-dashed border-indigo-300/40 bg-gradient-to-b from-[#1e1b4b] via-[#2e1065] to-[#1e1b4b]">
+                <!-- Hand-sewn stitch pattern edge effect -->
+                <div class="flex items-center justify-between px-1 mb-2">
+                  <span class="text-[9px] font-mono text-pink-300 tracking-wider">✦ PHOTO STRIP</span>
+                  <span class="text-[9px] font-mono text-sky-300">HAND-STITCHED ✦</span>
+                </div>
+
+                <!-- 3 Vertical Photo Windows inside Felt Frame -->
+                <div class="space-y-2">
+                  <!-- Photo 1 -->
+                  <div class="p-1 rounded-xl bg-space-900 border border-white/20 shadow-md">
+                    <div class="w-full h-16 rounded-lg overflow-hidden bg-slate-800">
+                      <img src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=400&q=80" alt="Photobooth Frame 1" class="w-full h-full object-cover">
+                    </div>
+                  </div>
+                  <!-- Photo 2 -->
+                  <div class="p-1 rounded-xl bg-space-900 border border-white/20 shadow-md">
+                    <div class="w-full h-16 rounded-lg overflow-hidden bg-slate-800">
+                      <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=400&q=80" alt="Photobooth Frame 2" class="w-full h-full object-cover">
+                    </div>
+                  </div>
+                  <!-- Photo 3 -->
+                  <div class="p-1 rounded-xl bg-space-900 border border-white/20 shadow-md">
+                    <div class="w-full h-16 rounded-lg overflow-hidden bg-slate-800">
+                      <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=400&q=80" alt="Photobooth Frame 3" class="w-full h-full object-cover">
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Cute Bow / Ribbon Accent at Bottom -->
+                <div class="mt-2.5 flex items-center justify-center gap-1.5 text-xs text-pink-300 font-mono">
+                  <span>🎀</span>
+                  <span class="text-[10px] tracking-wide uppercase font-semibold">Custom Charm & Warna Kain</span>
+                  <span>🎀</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Features Highlights -->
+            <div class="grid grid-cols-2 gap-2 mt-4 text-xs text-slate-300">
+              <div class="flex items-center gap-1.5 p-2 rounded-xl bg-white/[0.03] border border-white/5">
+                <i data-lucide="check" class="w-3.5 h-3.5 text-cyan-400"></i>
+                <span>Flannel Kaku Premium</span>
+              </div>
+              <div class="flex items-center gap-1.5 p-2 rounded-xl bg-white/[0.03] border border-white/5">
+                <i data-lucide="check" class="w-3.5 h-3.5 text-cyan-400"></i>
+                <span>Muat 3-4 Foto Kenangan</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Bottom Action: Order to Frame Memories CS -->
+          <div class="pt-6 mt-6 border-t border-white/10 flex items-center justify-between gap-3">
+            <div>
+              <span class="text-[11px] text-slate-400 block">Mulai dari</span>
+              <span class="text-xl font-bold font-mono text-white">Rp 25.000</span>
+            </div>
+            <button onclick="directToBrandCs('frame', 'Felt Photobooth Custom')" class="px-5 py-2.5 rounded-xl bg-gradient-to-r from-moonlight-blue to-moonlight-cyan hover:brightness-110 text-white text-xs sm:text-sm font-semibold flex items-center gap-2 shadow-lg shadow-moonlight-blue/25 transition-all">
+              <i data-lucide="message-circle" class="w-4 h-4"></i>
+              <span>Pesan ke CS Frame Memories</span>
+            </button>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- PROMO BANNERS SECTION (Promo Masing-Masing Brand & Bundling) -->
+  <section id="promo-section" class="relative z-10 py-16 bg-space-900/60 border-y border-white/[0.07]">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-2xl mx-auto mb-12">
+        <span class="inline-flex items-center gap-1 px-3 py-1 rounded-full text-xs font-mono text-pink-300 bg-pink-500/10 border border-pink-500/20 mb-2">
+          <i data-lucide="tag" class="w-3 h-3"></i> LIMITED TIME OFFER
+        </span>
+        <h2 class="text-3xl sm:text-4xl font-display font-bold text-white">Promo Spesial Masing-Masing Brand</h2>
+        <p class="text-slate-400 text-sm sm:text-base mt-2">Dapatkan diskon promo langsung saat klaim kode voucher ke Customer Service brand terkait!</p>
+      </div>
+
+      <!-- 3 Promo Banners Grid -->
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        
+        <!-- PROMO 1: VIBEATS PROMO -->
+        <div class="relative rounded-3xl p-6 bg-gradient-to-br from-moonlight-burgundy/60 via-space-900 to-space-950 border border-moonlight-red/30 shadow-xl overflow-hidden flex flex-col justify-between group">
+          <div class="absolute -right-8 -bottom-8 w-36 h-36 bg-moonlight-red/20 rounded-full blur-2xl pointer-events-none"></div>
+          
+          <div>
+            <div class="flex items-center justify-between mb-4">
+              <span class="px-2.5 py-1 rounded-lg bg-moonlight-red/30 text-pink-200 text-xs font-mono font-bold uppercase tracking-wider border border-moonlight-red/40">
+                Promo Vibeats
+              </span>
+              <span class="text-xs font-mono text-slate-400">Berlaku s/d Akhir Bulan</span>
+            </div>
+            <h3 class="text-xl font-bold text-white mb-2">Beli 2 Acrylic Spotify Gratis 1 Mini Charm</h3>
+            <p class="text-slate-300 text-xs leading-relaxed mb-4">
+              Order 2 gantungan kunci akrilik playlist Spotify dengan lagu berbeda, dapatkan gratis 1 mini charm barcode lirik!
+            </p>
+          </div>
+
+          <div class="pt-4 border-t border-white/10 flex items-center justify-between">
+            <div>
+              <span class="text-[10px] text-slate-400 block font-mono">KODE VOUCHER</span>
+              <span class="text-sm font-mono font-bold text-pink-300 select-all bg-white/5 px-2 py-0.5 rounded border border-pink-500/30">VIBEATMINI</span>
+            </div>
+            <button onclick="directToBrandCs('vibeats', 'Klaim Promo VIBEATMINI')" class="px-3.5 py-2 rounded-xl bg-moonlight-red hover:bg-rose-600 text-white text-xs font-semibold flex items-center gap-1.5 transition-colors">
+              <span>Klaim ke CS</span>
+              <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
+            </button>
+          </div>
+        </div>
+
+        <!-- PROMO 2: FRAME MEMORIES PROMO -->
+        <div class="relative rounded-3xl p-6 bg-gradient-to-br from-moonlight-blueDark/60 via-space-900 to-space-950 border border-moonlight-blue/30 shadow-xl overflow-hidden flex flex-col justify-between group">
+          <div class="absolute -right-8 -bottom-8 w-36 h-36 bg-moonlight-blue/20 rounded-full blur-2xl pointer-events-none"></div>
+
+          <div>
+            <div class="flex items-center justify-between mb-4">
+              <span class="px-2.5 py-1 rounded-lg bg-moonlight-blue/30 text-sky-200 text-xs font-mono font-bold uppercase tracking-wider border border-moonlight-blue/40">
+                Promo Frame Memories
+              </span>
+              <span class="text-xs font-mono text-slate-400">Slot Terbatas</span>
+            </div>
+            <h3 class="text-xl font-bold text-white mb-2">Gratis Custom Pita & Charm Manik Huruf</h3>
+            <p class="text-slate-300 text-xs leading-relaxed mb-4">
+              Setiap pemesanan Felt Photobooth Frame strip 3 foto, bebas request inisial huruf manik & warna gantungan pita flannel!
+            </p>
+          </div>
+
+          <div class="pt-4 border-t border-white/10 flex items-center justify-between">
+            <div>
+              <span class="text-[10px] text-slate-400 block font-mono">KODE VOUCHER</span>
+              <span class="text-sm font-mono font-bold text-sky-300 select-all bg-white/5 px-2 py-0.5 rounded border border-sky-500/30">FREEMEMORY</span>
+            </div>
+            <button onclick="directToBrandCs('frame', 'Klaim Promo FREEMEMORY')" class="px-3.5 py-2 rounded-xl bg-moonlight-blue hover:bg-blue-600 text-white text-xs font-semibold flex items-center gap-1.5 transition-colors">
+              <span>Klaim ke CS</span>
+              <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
+            </button>
+          </div>
+        </div>
+
+        <!-- PROMO 3: COLLAB BUNDLE PROMO (DUO COMBO) -->
+        <div class="relative rounded-3xl p-6 bg-gradient-to-br from-moonlight-purpleDeep/80 via-moonlight-burgundy/50 to-space-950 border border-purple-400/40 shadow-2xl shadow-purple-950/50 overflow-hidden flex flex-col justify-between group">
+          <div class="absolute -right-6 -top-6 w-32 h-32 bg-purple-500/25 rounded-full blur-2xl pointer-events-none"></div>
+          
+          <div>
+            <div class="flex items-center justify-between mb-4">
+              <span class="px-2.5 py-1 rounded-lg bg-gradient-to-r from-moonlight-red to-moonlight-blue text-white text-xs font-mono font-bold uppercase tracking-wider border border-white/20">
+                🔥 BEST SELLER COLLAB
+              </span>
+              <span class="px-2 py-0.5 rounded bg-emerald-500/20 text-emerald-300 text-[11px] font-semibold">Hemat 20%</span>
+            </div>
+            <h3 class="text-xl font-bold text-white mb-2">Duo Memories Collab Pack</h3>
+            <p class="text-slate-300 text-xs leading-relaxed mb-4">
+              Dapat 1 Acrylic Spotify Keychain + 1 Handmade Felt Photobooth Frame strip lengkap dengan box packaging hampers aesthetic.
+            </p>
+          </div>
+
+          <div class="pt-4 border-t border-white/10 flex items-center justify-between">
+            <div>
+              <span class="text-[10px] text-slate-400 line-through">Rp 58.000</span>
+              <span class="text-base font-mono font-bold text-emerald-400 block">Rp 49.000</span>
+            </div>
+            <button onclick="openCsRoutingModal('Duo Memories Collab Pack')" class="px-3.5 py-2 rounded-xl bg-gradient-to-r from-pink-500 to-indigo-500 hover:brightness-110 text-white text-xs font-semibold flex items-center gap-1.5 shadow-md">
+              <span>Pesan Bundle</span>
+              <i data-lucide="sparkles" class="w-3.5 h-3.5"></i>
+            </button>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- INTERACTIVE LIVE CUSTOMIZER PREVIEW (FITUR COBA DESAIN SENDIRI) -->
+  <section id="interactive-preview" class="relative z-10 py-20 overflow-hidden">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-3xl mx-auto mb-14">
+        <span class="inline-flex items-center gap-2 px-3.5 py-1 rounded-full text-xs font-mono text-cyan-300 bg-cyan-950/60 border border-cyan-500/30 mb-3">
+          <i data-lucide="wand-2" class="w-3.5 h-3.5 text-cyan-400"></i> Interactive Live Simulation
+        </span>
+        <h2 class="text-3xl sm:text-4xl md:text-5xl font-display font-bold text-white">
+          Simulasi Custom Gantungan Kunci
+        </h2>
+        <p class="text-slate-300 text-sm sm:text-base mt-3">
+          Kalian bisa tes simulasi tampilan gantungan kunci sebelum memesan ke admin. Pilih jenis produk di bawah dan sesuaikan foto, teks lagu, atau warna frame!
+        </p>
+
+        <!-- Customizer Switcher Tabs -->
+        <div class="inline-flex p-1.5 rounded-2xl bg-space-900 border border-white/15 backdrop-blur-xl mt-8 shadow-xl">
+          <button id="tab-vibeats-btn" onclick="switchCustomizerTab('vibeats')" class="px-5 py-2.5 rounded-xl font-semibold text-xs sm:text-sm flex items-center gap-2 transition-all bg-gradient-to-r from-moonlight-red to-moonlight-burgundy text-white shadow-md">
+            <i data-lucide="music-2" class="w-4 h-4"></i>
+            <span>Custom Acrylic Spotify (Vibeats)</span>
+          </button>
+          <button id="tab-frame-btn" onclick="switchCustomizerTab('frame')" class="px-5 py-2.5 rounded-xl font-semibold text-xs sm:text-sm flex items-center gap-2 transition-all text-slate-400 hover:text-white">
+            <i data-lucide="images" class="w-4 h-4"></i>
+            <span>Custom Flannel Photobooth (Frame)</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- MAIN CUSTOMIZER INTERACTION CONTAINER -->
+      <div class="bg-space-900/80 rounded-3xl border border-white/10 p-6 sm:p-10 backdrop-blur-2xl shadow-2xl max-w-5xl mx-auto">
+        
+        <!-- ================= PANEL 1: VIBEATS SPOTIFY CUSTOMIZER ================= -->
+        <div id="vibeats-customizer-panel" class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+          
+          <!-- Controls Column -->
+          <div class="lg:col-span-6 space-y-5">
+            <div class="border-b border-white/10 pb-4">
+              <span class="text-xs font-mono text-moonlight-red font-semibold uppercase">Vibeats Custom Lab</span>
+              <h3 class="text-xl font-bold text-white">Atur Lagu & Foto Favoritmu</h3>
+              <p class="text-xs text-slate-400 mt-1">Ubah judul, artis, dan foto cover untuk melihat pratinjau real-time gantungan kunci akrilik.</p>
+            </div>
+
+            <!-- Song Title Input -->
+            <div>
+              <label class="block text-xs font-mono text-slate-300 mb-1.5 font-medium">Judul Lagu / Momen</label>
+              <input type="text" id="cust-song-title" value="Glimpse of Us" oninput="updateVibeatsPreview()" class="w-full px-4 py-2.5 rounded-xl bg-space-950 border border-white/15 text-white text-sm focus:outline-none focus:border-moonlight-red transition-colors" placeholder="Contoh: Perfect, Asmalibrasi, dll.">
+            </div>
+
+            <!-- Artist / Singer Input -->
+            <div>
+              <label class="block text-xs font-mono text-slate-300 mb-1.5 font-medium">Nama Artis / Custom Pesan</label>
+              <input type="text" id="cust-artist" value="Joji • Our Anniversary" oninput="updateVibeatsPreview()" class="w-full px-4 py-2.5 rounded-xl bg-space-950 border border-white/15 text-white text-sm focus:outline-none focus:border-moonlight-red transition-colors" placeholder="Contoh: Joji, Tulus, dll.">
+            </div>
+
+            <!-- Cover Preset Quick Selector -->
+            <div>
+              <label class="block text-xs font-mono text-slate-300 mb-2 font-medium">Pilih Contoh Foto Cover</label>
+              <div class="grid grid-cols-4 gap-2">
+                <button onclick="setVibeatsCover('https://images.unsplash.com/photo-1518609878373-06d740f60d8b?auto=format&fit=crop&w=500&q=80')" class="w-full h-14 rounded-lg overflow-hidden border-2 border-moonlight-red focus:border-white transition-all">
+                  <img src="https://images.unsplash.com/photo-1518609878373-06d740f60d8b?auto=format&fit=crop&w=150&q=80" alt="Preset 1" class="w-full h-full object-cover">
+                </button>
+                <button onclick="setVibeatsCover('https://images.unsplash.com/photo-1514525253161-7a46d19cd819?auto=format&fit=crop&w=500&q=80')" class="w-full h-14 rounded-lg overflow-hidden border-2 border-transparent hover:border-white/50 focus:border-white transition-all">
+                  <img src="https://images.unsplash.com/photo-1514525253161-7a46d19cd819?auto=format&fit=crop&w=150&q=80" alt="Preset 2" class="w-full h-full object-cover">
+                </button>
+                <button onclick="setVibeatsCover('https://images.unsplash.com/photo-1534447677768-be436bb09401?auto=format&fit=crop&w=500&q=80')" class="w-full h-14 rounded-lg overflow-hidden border-2 border-transparent hover:border-white/50 focus:border-white transition-all">
+                  <img src="https://images.unsplash.com/photo-1534447677768-be436bb09401?auto=format&fit=crop&w=150&q=80" alt="Preset 3" class="w-full h-full object-cover">
+                </button>
+                <label class="w-full h-14 rounded-lg border-2 border-dashed border-white/20 hover:border-moonlight-red flex flex-col items-center justify-center cursor-pointer bg-white/5 text-slate-400 hover:text-white transition-all">
+                  <i data-lucide="upload" class="w-4 h-4"></i>
+                  <span class="text-[9px] font-mono mt-0.5">Upload</span>
+                  <input type="file" id="cust-upload-vibeats" accept="image/*" class="hidden" onchange="handleVibeatsImageUpload(event)">
+                </label>
+              </div>
+            </div>
+
+            <!-- Custom Acrylic Shape Toggle -->
+            <div>
+              <label class="block text-xs font-mono text-slate-300 mb-1.5 font-medium">Bentuk Akrilik</label>
+              <div class="flex gap-3">
+                <button type="button" onclick="setAcrylicShape('rounded')" id="shape-rounded" class="flex-1 py-2 px-3 rounded-xl text-xs font-semibold border border-moonlight-red bg-moonlight-red/20 text-white">Square Rounded</button>
+                <button type="button" onclick="setAcrylicShape('pill')" id="shape-pill" class="flex-1 py-2 px-3 rounded-xl text-xs font-semibold border border-white/10 bg-space-950 text-slate-400 hover:text-white">Arch / Arch Oval</button>
+              </div>
+            </div>
+
+            <div class="pt-3">
+              <button onclick="orderFromVibeatsCustomizer()" class="w-full py-3.5 rounded-xl bg-gradient-to-r from-moonlight-red to-moonlight-burgundy hover:brightness-110 text-white font-bold text-sm flex items-center justify-center gap-2 shadow-xl shadow-moonlight-burgundy/30 transition-all">
+                <i data-lucide="message-circle" class="w-4 h-4"></i>
+                <span>Pesan Desain Ini ke CS Vibeats</span>
+              </button>
+              <p class="text-[11px] text-slate-400 text-center mt-2">Data lagu & preview akan otomatis terkirim ke WhatsApp Admin Vibeats.</p>
+            </div>
+          </div>
+
+          <!-- Realistic Acrylic Preview Column -->
+          <div class="lg:col-span-6 flex flex-col items-center justify-center p-6 bg-space-950/60 rounded-2xl border border-white/5 relative">
+            <span class="absolute top-3 right-3 text-[10px] font-mono text-slate-500 uppercase tracking-widest">Live Acrylic Rendering</span>
+            
+            <!-- Acrylic Physical Mockup Container -->
+            <div id="acrylic-mockup-frame" class="relative w-64 p-4 rounded-3xl bg-white/[0.05] border-2 border-white/40 shadow-2xl backdrop-blur-xl transition-all duration-300">
+              <!-- Metal Ring Hook -->
+              <div class="absolute -top-10 left-1/2 -translate-x-1/2 flex flex-col items-center">
+                <div class="w-8 h-8 rounded-full border-4 border-slate-200 shadow-xl bg-slate-400/20"></div>
+                <div class="w-2 h-4 bg-gradient-to-b from-slate-200 to-slate-400 -mt-1 shadow-sm"></div>
+                <div class="w-4 h-4 rounded-full border-2 border-slate-300 -mt-1"></div>
+              </div>
+
+              <!-- Reflection Glare / Acrylic Glass Sheen -->
+              <div class="absolute inset-0 rounded-3xl bg-gradient-to-tr from-white/10 via-transparent to-white/20 pointer-events-none"></div>
+
+              <!-- Cover Image Box -->
+              <div class="w-full aspect-square rounded-2xl overflow-hidden bg-space-900 border border-white/20 shadow-md relative">
+                <img id="preview-vibeats-img" src="https://images.unsplash.com/photo-1518609878373-06d740f60d8b?auto=format&fit=crop&w=500&q=80" alt="Cover Preview" class="w-full h-full object-cover">
+                <div class="absolute top-2 left-2 px-2 py-0.5 rounded-full bg-black/60 backdrop-blur-md text-[9px] text-white font-mono flex items-center gap-1">
+                  <i data-lucide="music" class="w-2.5 h-2.5 text-pink-400"></i> Spotify Playable
+                </div>
+              </div>
+
+              <!-- Song Details Preview -->
+              <div class="mt-3.5 px-1">
+                <div class="flex items-center justify-between">
+                  <div class="overflow-hidden pr-2">
+                    <h4 id="preview-song-title" class="text-sm font-bold text-white truncate">Glimpse of Us</h4>
+                    <p id="preview-artist" class="text-[11px] text-slate-300 truncate font-mono">Joji • Our Anniversary</p>
+                  </div>
+                  <div class="w-7 h-7 rounded-full bg-emerald-500/20 border border-emerald-400/30 flex items-center justify-center shrink-0">
+                    <i data-lucide="play" class="w-3.5 h-3.5 text-emerald-400 fill-emerald-400"></i>
+                  </div>
+                </div>
+
+                <!-- Spotify Barcode Waveform -->
+                <div class="mt-3 p-2 rounded-xl bg-black/80 border border-white/10 flex items-center justify-between gap-1 shadow-inner">
+                  <i data-lucide="disc" class="w-3.5 h-3.5 text-emerald-400 shrink-0"></i>
+                  <div class="flex items-center gap-[2.5px] h-4 w-full justify-center px-1">
+                    <div class="w-[2px] h-2 bg-white rounded-full"></div>
+                    <div class="w-[2px] h-3 bg-white rounded-full"></div>
+                    <div class="w-[2px] h-1.5 bg-white rounded-full"></div>
+                    <div class="w-[2px] h-4 bg-white rounded-full"></div>
+                    <div class="w-[2px] h-2.5 bg-white rounded-full"></div>
+                    <div class="w-[2px] h-3 bg-white rounded-full"></div>
+                    <div class="w-[2px] h-1 bg-white rounded-full"></div>
+                    <div class="w-[2px] h-3.5 bg-white rounded-full"></div>
+                    <div class="w-[2px] h-2 bg-white rounded-full"></div>
+                    <div class="w-[2px] h-4 bg-white rounded-full"></div>
+                    <div class="w-[2px] h-1 bg-white rounded-full"></div>
+                    <div class="w-[2px] h-3 bg-white rounded-full"></div>
+                    <div class="w-[2px] h-2 bg-white rounded-full"></div>
+                  </div>
+                  <span class="text-[9px] font-mono font-bold text-emerald-400">SCAN</span>
+                </div>
+
+                <!-- Acrylic 3mm edge note -->
+                <div class="mt-2 text-center">
+                  <span class="text-[9px] font-mono text-slate-400">✦ Premium UV Print 3mm Acrylic ✦</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Price & Specs -->
+            <div class="mt-6 flex items-center gap-4 text-xs font-mono text-slate-300">
+              <span>Estimasi: <strong class="text-white text-sm">Rp 22.000</strong></span>
+              <span>•</span>
+              <span class="text-emerald-400">Ready Custom 1-2 Hari</span>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- ================= PANEL 2: FRAME MEMORIES PHOTOBOOTH CUSTOMIZER ================= -->
+        <div id="frame-customizer-panel" class="hidden grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+          
+          <!-- Controls Column -->
+          <div class="lg:col-span-6 space-y-5">
+            <div class="border-b border-white/10 pb-4">
+              <span class="text-xs font-mono text-moonlight-blue font-semibold uppercase">Frame Memories Handmade Lab</span>
+              <h3 class="text-xl font-bold text-white">Rancang Frame Flannel Photobooth</h3>
+              <p class="text-xs text-slate-400 mt-1">Pilih warna kain flannel kaku, pilih gaya jahitan, dan pasang 3 foto kenangan terbaikmu.</p>
+            </div>
+
+            <!-- Color Palette Selector for Felt -->
+            <div>
+              <label class="block text-xs font-mono text-slate-300 mb-2 font-medium">Pilih Warna Kain Flannel</label>
+              <div class="grid grid-cols-5 gap-2">
+                <button type="button" onclick="setFeltColor('#312e81', 'Moonlight Navy')" class="p-2 rounded-xl border-2 border-white text-center focus:outline-none transition-all flex flex-col items-center gap-1 bg-space-950">
+                  <div class="w-6 h-6 rounded-full bg-[#312e81] shadow"></div>
+                  <span class="text-[9px] text-slate-300">Navy</span>
+                </button>
+                <button type="button" onclick="setFeltColor('#580c29', 'Burgundy Wine')" class="p-2 rounded-xl border-2 border-transparent hover:border-white/40 text-center focus:outline-none transition-all flex flex-col items-center gap-1 bg-space-950">
+                  <div class="w-6 h-6 rounded-full bg-[#580c29] shadow"></div>
+                  <span class="text-[9px] text-slate-300">Burgundy</span>
+                </button>
+                <button type="button" onclick="setFeltColor('#1e1b4b', 'Deep Twilight')" class="p-2 rounded-xl border-2 border-transparent hover:border-white/40 text-center focus:outline-none transition-all flex flex-col items-center gap-1 bg-space-950">
+                  <div class="w-6 h-6 rounded-full bg-[#1e1b4b] shadow"></div>
+                  <span class="text-[9px] text-slate-300">Twilight</span>
+                </button>
+                <button type="button" onclick="setFeltColor('#831843', 'Soft Berry')" class="p-2 rounded-xl border-2 border-transparent hover:border-white/40 text-center focus:outline-none transition-all flex flex-col items-center gap-1 bg-space-950">
+                  <div class="w-6 h-6 rounded-full bg-[#831843] shadow"></div>
+                  <span class="text-[9px] text-slate-300">Berry</span>
+                </button>
+                <button type="button" onclick="setFeltColor('#18181b', 'Dark Charcoal')" class="p-2 rounded-xl border-2 border-transparent hover:border-white/40 text-center focus:outline-none transition-all flex flex-col items-center gap-1 bg-space-950">
+                  <div class="w-6 h-6 rounded-full bg-[#18181b] shadow"></div>
+                  <span class="text-[9px] text-slate-300">Charcoal</span>
+                </button>
+              </div>
+            </div>
+
+            <!-- Custom Title on Photobooth -->
+            <div>
+              <label class="block text-xs font-mono text-slate-300 mb-1.5 font-medium">Tulisan Header / Tanggal Kenangan</label>
+              <input type="text" id="cust-felt-title" value="BESTIES FOREVER • 2026" oninput="updateFeltPreview()" class="w-full px-4 py-2.5 rounded-xl bg-space-950 border border-white/15 text-white text-sm focus:outline-none focus:border-moonlight-blue transition-colors" placeholder="Contoh: HAPPY BIRTHDAY, DATE, dll.">
+            </div>
+
+            <!-- Photos Theme Preset -->
+            <div>
+              <label class="block text-xs font-mono text-slate-300 mb-1.5 font-medium">Tema Foto Preset</label>
+              <div class="grid grid-cols-3 gap-2 text-xs">
+                <button onclick="setFeltPhotoPreset('friends')" class="py-2 px-3 rounded-xl bg-white/5 border border-white/10 hover:border-moonlight-blue text-slate-300 hover:text-white">Sahabat / Bestie</button>
+                <button onclick="setFeltPhotoPreset('couple')" class="py-2 px-3 rounded-xl bg-white/5 border border-white/10 hover:border-moonlight-blue text-slate-300 hover:text-white">Couple / Pacar</button>
+                <button onclick="setFeltPhotoPreset('solo')" class="py-2 px-3 rounded-xl bg-white/5 border border-white/10 hover:border-moonlight-blue text-slate-300 hover:text-white">Aesthetic Solo</button>
+              </div>
+            </div>
+
+            <!-- Charm & Ribbon Option -->
+            <div>
+              <label class="block text-xs font-mono text-slate-300 mb-1.5 font-medium">Aksen Tambahan (Charm / Manik)</label>
+              <div class="flex gap-2">
+                <label class="flex items-center gap-2 p-2.5 rounded-xl bg-space-950 border border-white/10 flex-1 cursor-pointer">
+                  <input type="checkbox" id="felt-charm-ribbon" checked onchange="updateFeltPreview()" class="rounded accent-pink-500">
+                  <span class="text-xs text-slate-300">Pita Flannel Cantik 🎀</span>
+                </label>
+                <label class="flex items-center gap-2 p-2.5 rounded-xl bg-space-950 border border-white/10 flex-1 cursor-pointer">
+                  <input type="checkbox" id="felt-charm-beads" checked onchange="updateFeltPreview()" class="rounded accent-sky-500">
+                  <span class="text-xs text-slate-300">Rantai Biji Lada Gold ✨</span>
+                </label>
+              </div>
+            </div>
+
+            <div class="pt-3">
+              <button onclick="orderFromFrameCustomizer()" class="w-full py-3.5 rounded-xl bg-gradient-to-r from-moonlight-blue to-moonlight-cyan hover:brightness-110 text-white font-bold text-sm flex items-center justify-center gap-2 shadow-xl shadow-moonlight-blue/30 transition-all">
+                <i data-lucide="message-circle" class="w-4 h-4"></i>
+                <span>Pesan Desain Ini ke CS Frame Memories</span>
+              </button>
+              <p class="text-[11px] text-slate-400 text-center mt-2">Detail warna kain & teks akan otomatis terformat untuk WhatsApp Admin.</p>
+            </div>
+          </div>
+
+          <!-- Realistic Flannel Strip Preview Column -->
+          <div class="lg:col-span-6 flex flex-col items-center justify-center p-6 bg-space-950/60 rounded-2xl border border-white/5 relative">
+            <span class="absolute top-3 right-3 text-[10px] font-mono text-slate-500 uppercase tracking-widest">Handmade Felt Rendering</span>
+
+            <!-- Felt Photobooth Vertical Strip -->
+            <div id="felt-mockup-frame" class="relative w-56 p-3 rounded-2xl shadow-2xl transition-all duration-300 border-2 border-dashed border-indigo-300/50" style="background-color: #312e81;">
+              
+              <!-- Ball Chain Hanging Hook -->
+              <div class="absolute -top-10 left-1/2 -translate-x-1/2 flex flex-col items-center">
+                <div class="w-6 h-8 rounded-full border-2 border-dashed border-amber-300 shadow-md"></div>
+                <div class="w-2.5 h-2.5 rounded-full bg-amber-400 -mt-1 shadow"></div>
+              </div>
+
+              <!-- Strip Header -->
+              <div class="text-center py-1 border-b border-white/20 mb-2">
+                <p id="preview-felt-title" class="text-[9px] font-mono font-bold text-pink-200 tracking-wider">BESTIES FOREVER • 2026</p>
+              </div>
+
+              <!-- 3 Photo Strip Windows -->
+              <div class="space-y-2">
+                <div class="p-1 rounded-lg bg-space-950/80 border border-white/25 shadow-inner">
+                  <div class="w-full h-20 rounded overflow-hidden">
+                    <img id="felt-photo-1" src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=400&q=80" alt="Felt Photo 1" class="w-full h-full object-cover">
+                  </div>
+                </div>
+                <div class="p-1 rounded-lg bg-space-950/80 border border-white/25 shadow-inner">
+                  <div class="w-full h-20 rounded overflow-hidden">
+                    <img id="felt-photo-2" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=400&q=80" alt="Felt Photo 2" class="w-full h-full object-cover">
+                  </div>
+                </div>
+                <div class="p-1 rounded-lg bg-space-950/80 border border-white/25 shadow-inner">
+                  <div class="w-full h-20 rounded overflow-hidden">
+                    <img id="felt-photo-3" src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=400&q=80" alt="Felt Photo 3" class="w-full h-full object-cover">
+                  </div>
+                </div>
+              </div>
+
+              <!-- Bottom Ribbon Accent -->
+              <div id="preview-felt-ribbon" class="mt-2.5 text-center text-xs text-pink-300 font-mono flex items-center justify-center gap-1">
+                <span>🎀</span>
+                <span class="text-[9px] font-semibold text-white/90">HANDMADE WITH LOVE</span>
+                <span>🎀</span>
+              </div>
+            </div>
+
+            <!-- Price & Specs -->
+            <div class="mt-6 flex items-center gap-4 text-xs font-mono text-slate-300">
+              <span>Estimasi: <strong class="text-white text-sm">Rp 25.000</strong></span>
+              <span>•</span>
+              <span class="text-sky-400">Jahit Tangan Rapih</span>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- PRODUCT CATALOG WITH PRICE TAGS (KOLEKSI PRODUK & TAG HARGA) -->
+  <section id="catalog-section" class="relative z-10 py-20 bg-space-900/40">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <!-- Section Header & Filter Tabs -->
+      <div class="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-12">
+        <div>
+          <span class="text-xs font-mono text-pink-400 font-semibold uppercase tracking-wider block mb-1">
+            ✦ All Handcrafted Collections
+          </span>
+          <h2 class="text-3xl sm:text-4xl font-display font-bold text-white">Katalog Produk & Tag Harga</h2>
+          <p class="text-slate-400 text-sm mt-1">Pilih produk favoritmu dan klik pesan untuk langsung tersambung ke CS brand yang bersangkutan.</p>
+        </div>
+
+        <!-- Filter Pill Tabs -->
+        <div class="flex flex-wrap gap-2 p-1.5 rounded-2xl bg-space-900 border border-white/10 backdrop-blur-md">
+          <button onclick="filterCatalog('all')" id="filter-all" class="catalog-filter-btn px-4 py-2 rounded-xl text-xs font-semibold bg-white/15 text-white transition-all">
+            Semua Produk
+          </button>
+          <button onclick="filterCatalog('vibeats')" id="filter-vibeats" class="catalog-filter-btn px-4 py-2 rounded-xl text-xs font-semibold text-slate-400 hover:text-white transition-all flex items-center gap-1.5">
+            <span class="w-2 h-2 rounded-full bg-moonlight-red"></span>
+            Vibeats (Spotify Acrylic)
+          </button>
+          <button onclick="filterCatalog('frame')" id="filter-frame" class="catalog-filter-btn px-4 py-2 rounded-xl text-xs font-semibold text-slate-400 hover:text-white transition-all flex items-center gap-1.5">
+            <span class="w-2 h-2 rounded-full bg-moonlight-blue"></span>
+            Frame Memories (Felt Strip)
+          </button>
+          <button onclick="filterCatalog('bundle')" id="filter-bundle" class="catalog-filter-btn px-4 py-2 rounded-xl text-xs font-semibold text-slate-400 hover:text-white transition-all flex items-center gap-1.5">
+            <i data-lucide="sparkles" class="w-3 h-3 text-pink-400"></i>
+            Collab Combo Pack
+          </button>
+        </div>
+      </div>
+
+      <!-- PRODUCT CARDS GRID -->
+      <div id="product-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+
+        <!-- PRODUCT 1: Vibeats Classic Spotify Acrylic -->
+        <div class="product-card group relative rounded-3xl bg-space-900/90 border border-white/10 hover:border-moonlight-red/50 backdrop-blur-xl overflow-hidden transition-all duration-300 flex flex-col justify-between" data-category="vibeats">
+          <div>
+            <!-- Product Image / Mockup Preview -->
+            <div class="relative w-full aspect-[4/3] bg-space-950 overflow-hidden">
+              <img src="https://images.unsplash.com/photo-1518609878373-06d740f60d8b?auto=format&fit=crop&w=600&q=80" alt="Acrylic Spotify Classic" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+              
+              <!-- Brand Badge -->
+              <div class="absolute top-3 left-3">
+                <span class="px-3 py-1 rounded-full text-[11px] font-mono font-semibold bg-moonlight-burgundy/80 text-pink-200 border border-moonlight-red/40 backdrop-blur-md">
+                  Vibeats Keychain
+                </span>
+              </div>
+
+              <!-- Custom Badge -->
+              <div class="absolute top-3 right-3">
+                <span class="px-2.5 py-1 rounded-full text-[10px] font-semibold bg-black/60 text-slate-200 backdrop-blur-md flex items-center gap-1">
+                  <i data-lucide="check" class="w-3 h-3 text-emerald-400"></i> 100% Custom
+                </span>
+              </div>
+
+              <!-- Barcode Scan Floating Tag -->
+              <div class="absolute bottom-3 left-3 right-3 p-2 rounded-xl bg-space-950/80 backdrop-blur-md border border-white/10 flex items-center justify-between text-xs">
+                <span class="flex items-center gap-1.5 text-slate-300 text-[11px]">
+                  <i data-lucide="music" class="w-3.5 h-3.5 text-emerald-400"></i> Lagu Spotify Bebas Pilih
+                </span>
+                <span class="font-mono text-[10px] text-emerald-400 font-bold bg-emerald-950/60 px-2 py-0.5 rounded border border-emerald-500/30">SCANNABLE</span>
+              </div>
+            </div>
+
+            <!-- Content Details -->
+            <div class="p-6">
+              <h3 class="text-lg font-bold text-white group-hover:text-pink-300 transition-colors">
+                Classic Spotify Code Acrylic Keychain
+              </h3>
+              <p class="text-slate-400 text-xs mt-2 leading-relaxed">
+                Gantungan kunci akrilik jernih 3mm dua sisi. Menampilkan foto cover custom, judul lagu, musisi favorit, dan barcode Spotify yang bisa di-scan kapan saja.
+              </p>
+              
+              <div class="flex items-center gap-2 mt-4 text-[11px] font-mono text-slate-400">
+                <span class="px-2 py-1 rounded-md bg-white/5">Tebal 3mm</span>
+                <span class="px-2 py-1 rounded-md bg-white/5">Anti Air & Pudar</span>
+                <span class="px-2 py-1 rounded-md bg-white/5">Ring Tebal</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Price Tag & Order CTA -->
+          <div class="p-6 pt-0 border-t border-white/5 mt-4 flex items-center justify-between gap-3">
+            <div>
+              <span class="text-[10px] text-slate-500 block font-mono">TAG HARGA</span>
+              <div class="flex items-baseline gap-1.5">
+                <span class="text-xl font-mono font-bold text-white">Rp 22.000</span>
+                <span class="text-xs text-slate-500 line-through">Rp 28.000</span>
+              </div>
+            </div>
+
+            <!-- CS Button targeted to Vibeats -->
+            <button onclick="directToBrandCs('vibeats', 'Classic Spotify Code Acrylic Keychain (Rp 22.000)')" class="px-4 py-2.5 rounded-xl bg-gradient-to-r from-moonlight-red to-moonlight-burgundy hover:brightness-110 text-white text-xs font-semibold flex items-center gap-1.5 shadow-md shadow-moonlight-red/20 transition-all">
+              <i data-lucide="message-circle" class="w-3.5 h-3.5"></i>
+              <span>Pesan ke CS Vibeats</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- PRODUCT 2: Frame Your Memories Photobooth Flannel Strip -->
+        <div class="product-card group relative rounded-3xl bg-space-900/90 border border-white/10 hover:border-moonlight-blue/50 backdrop-blur-xl overflow-hidden transition-all duration-300 flex flex-col justify-between" data-category="frame">
+          <div>
+            <!-- Product Image / Mockup Preview -->
+            <div class="relative w-full aspect-[4/3] bg-space-950 overflow-hidden">
+              <img src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=600&q=80" alt="Flannel Photobooth Strip" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+              
+              <!-- Brand Badge -->
+              <div class="absolute top-3 left-3">
+                <span class="px-3 py-1 rounded-full text-[11px] font-mono font-semibold bg-moonlight-blueDark/80 text-sky-200 border border-moonlight-blue/40 backdrop-blur-md">
+                  Frame Your Memories
+                </span>
+              </div>
+
+              <!-- Custom Badge -->
+              <div class="absolute top-3 right-3">
+                <span class="px-2.5 py-1 rounded-full text-[10px] font-semibold bg-black/60 text-slate-200 backdrop-blur-md flex items-center gap-1">
+                  <i data-lucide="heart" class="w-3 h-3 text-pink-400"></i> Handmade Felt
+                </span>
+              </div>
+
+              <!-- Strip Feature Floating Tag -->
+              <div class="absolute bottom-3 left-3 right-3 p-2 rounded-xl bg-space-950/80 backdrop-blur-md border border-white/10 flex items-center justify-between text-xs">
+                <span class="flex items-center gap-1.5 text-slate-300 text-[11px]">
+                  <i data-lucide="image" class="w-3.5 h-3.5 text-cyan-400"></i> Muat 3 Foto Memanjang Vertikal
+                </span>
+                <span class="font-mono text-[10px] text-cyan-300 font-bold bg-cyan-950/60 px-2 py-0.5 rounded border border-cyan-500/30">JAHIT TANGAN</span>
+              </div>
+            </div>
+
+            <!-- Content Details -->
+            <div class="p-6">
+              <h3 class="text-lg font-bold text-white group-hover:text-sky-300 transition-colors">
+                Handmade Felt Photobooth Frame Strip
+              </h3>
+              <p class="text-slate-400 text-xs mt-2 leading-relaxed">
+                Frame gantungan kunci estetik dari kain flannel tebal & kaku yang dijahit rapi. Frame memanjang ke bawah untuk 3 foto booth kenangan bersama sahabat atau pasangan.
+              </p>
+              
+              <div class="flex items-center gap-2 mt-4 text-[11px] font-mono text-slate-400">
+                <span class="px-2 py-1 rounded-md bg-white/5">Kain Flannel Kaku</span>
+                <span class="px-2 py-1 rounded-md bg-white/5">Free Pita Charm</span>
+                <span class="px-2 py-1 rounded-md bg-white/5">Rantai Lada Gold</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Price Tag & Order CTA -->
+          <div class="p-6 pt-0 border-t border-white/5 mt-4 flex items-center justify-between gap-3">
+            <div>
+              <span class="text-[10px] text-slate-500 block font-mono">TAG HARGA</span>
+              <div class="flex items-baseline gap-1.5">
+                <span class="text-xl font-mono font-bold text-white">Rp 25.000</span>
+                <span class="text-xs text-slate-500 line-through">Rp 30.000</span>
+              </div>
+            </div>
+
+            <!-- CS Button targeted to Frame Memories -->
+            <button onclick="directToBrandCs('frame', 'Handmade Felt Photobooth Frame Strip (Rp 25.000)')" class="px-4 py-2.5 rounded-xl bg-gradient-to-r from-moonlight-blue to-moonlight-cyan hover:brightness-110 text-white text-xs font-semibold flex items-center gap-1.5 shadow-md shadow-moonlight-blue/20 transition-all">
+              <i data-lucide="message-circle" class="w-3.5 h-3.5"></i>
+              <span>Pesan ke CS Frame</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- PRODUCT 3: Duo Memories Collab Pack (Combo Bundle) -->
+        <div class="product-card group relative rounded-3xl bg-space-900/90 border border-purple-500/40 hover:border-pink-500/60 backdrop-blur-xl overflow-hidden transition-all duration-300 flex flex-col justify-between shadow-lg shadow-purple-950/40" data-category="bundle">
+          <div>
+            <!-- Product Image / Mockup Preview -->
+            <div class="relative w-full aspect-[4/3] bg-space-950 overflow-hidden">
+              <img src="https://images.unsplash.com/photo-1513519245088-0e12902e5a38?auto=format&fit=crop&w=600&q=80" alt="Collab Combo Pack" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+              
+              <!-- Brand Badge -->
+              <div class="absolute top-3 left-3">
+                <span class="px-3 py-1 rounded-full text-[11px] font-mono font-semibold bg-gradient-to-r from-moonlight-red to-moonlight-blue text-white border border-white/20 backdrop-blur-md shadow-md">
+                  Vibeats × Frame Memories
+                </span>
+              </div>
+
+              <!-- Promo Tag -->
+              <div class="absolute top-3 right-3">
+                <span class="px-2.5 py-1 rounded-full text-[10px] font-bold bg-pink-500 text-white shadow-md flex items-center gap-1">
+                  🔥 BEST COMBO
+                </span>
+              </div>
+
+              <!-- Strip Feature Floating Tag -->
+              <div class="absolute bottom-3 left-3 right-3 p-2 rounded-xl bg-space-950/80 backdrop-blur-md border border-white/10 flex items-center justify-between text-xs">
+                <span class="flex items-center gap-1.5 text-pink-300 text-[11px] font-medium">
+                  <i data-lucide="package" class="w-3.5 h-3.5"></i> 1 Acrylic Spotify + 1 Felt Strip
+                </span>
+                <span class="font-mono text-[10px] text-emerald-400 font-bold bg-emerald-950/60 px-2 py-0.5 rounded border border-emerald-500/30">HEMAT 20%</span>
+              </div>
+            </div>
+
+            <!-- Content Details -->
+            <div class="p-6">
+              <h3 class="text-lg font-bold text-white group-hover:text-purple-300 transition-colors">
+                Duo Collab Pack: Spotify + Photobooth
+              </h3>
+              <p class="text-slate-400 text-xs mt-2 leading-relaxed">
+                Paket bundling terbaik kolaborasi! Dapatkan 1 gantungan akrilik Spotify custom Vibeats dan 1 frame photobooth kain flannel Frame Your Memories dalam kemasan gift box lucu.
+              </p>
+              
+              <div class="flex items-center gap-2 mt-4 text-[11px] font-mono text-slate-400">
+                <span class="px-2 py-1 rounded-md bg-white/5">Free Gift Box</span>
+                <span class="px-2 py-1 rounded-md bg-white/5">Free Greeting Card</span>
+                <span class="px-2 py-1 rounded-md bg-white/5">Double Custom</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Price Tag & Order CTA -->
+          <div class="p-6 pt-0 border-t border-white/5 mt-4 flex items-center justify-between gap-3">
+            <div>
+              <span class="text-[10px] text-slate-500 block font-mono">TAG HARGA COMBO</span>
+              <div class="flex items-baseline gap-1.5">
+                <span class="text-xl font-mono font-bold text-pink-300">Rp 49.000</span>
+                <span class="text-xs text-slate-500 line-through">Rp 58.000</span>
+              </div>
+            </div>
+
+            <!-- Modal Trigger for Bundle -->
+            <button onclick="openCsRoutingModal('Duo Collab Pack: Spotify + Photobooth (Rp 49.000)')" class="px-4 py-2.5 rounded-xl bg-gradient-to-r from-moonlight-red via-purple-600 to-moonlight-blue hover:brightness-110 text-white text-xs font-semibold flex items-center gap-1.5 shadow-md shadow-purple-900/40 transition-all">
+              <i data-lucide="sparkles" class="w-3.5 h-3.5"></i>
+              <span>Pesan Bundle</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- PRODUCT 4: Vibeats Mini Barcode Lirik Keychain -->
+        <div class="product-card group relative rounded-3xl bg-space-900/90 border border-white/10 hover:border-moonlight-red/50 backdrop-blur-xl overflow-hidden transition-all duration-300 flex flex-col justify-between" data-category="vibeats">
+          <div>
+            <div class="relative w-full aspect-[4/3] bg-space-950 overflow-hidden">
+              <img src="https://images.unsplash.com/photo-1514525253161-7a46d19cd819?auto=format&fit=crop&w=600&q=80" alt="Mini Barcode Lirik" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+              
+              <div class="absolute top-3 left-3">
+                <span class="px-3 py-1 rounded-full text-[11px] font-mono font-semibold bg-moonlight-burgundy/80 text-pink-200 border border-moonlight-red/40 backdrop-blur-md">
+                  Vibeats Keychain
+                </span>
+              </div>
+
+              <div class="absolute bottom-3 left-3 right-3 p-2 rounded-xl bg-space-950/80 backdrop-blur-md border border-white/10 flex items-center justify-between text-xs">
+                <span class="text-slate-300 text-[11px]">Akrilik Bening + Lirik Favorit</span>
+                <span class="font-mono text-[10px] text-pink-300 font-bold bg-pink-950/60 px-2 py-0.5 rounded border border-pink-500/30">MINI EDITION</span>
+              </div>
+            </div>
+
+            <div class="p-6">
+              <h3 class="text-lg font-bold text-white group-hover:text-pink-300 transition-colors">
+                Spotify Lyrics & Barcode Minimalist
+              </h3>
+              <p class="text-slate-400 text-xs mt-2 leading-relaxed">
+                Desain ramping dan minimalis. Memuat petikan lirik paling berkesan dari lagu pilihanmu disertai Spotify Code di bagian bawah.
+              </p>
+              
+              <div class="flex items-center gap-2 mt-4 text-[11px] font-mono text-slate-400">
+                <span class="px-2 py-1 rounded-md bg-white/5">Ukuran Compact 6x2.5cm</span>
+                <span class="px-2 py-1 rounded-md bg-white/5">Full Clear Akrilik</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="p-6 pt-0 border-t border-white/5 mt-4 flex items-center justify-between gap-3">
+            <div>
+              <span class="text-[10px] text-slate-500 block font-mono">TAG HARGA</span>
+              <div class="flex items-baseline gap-1.5">
+                <span class="text-xl font-mono font-bold text-white">Rp 18.000</span>
+                <span class="text-xs text-slate-500 line-through">Rp 24.000</span>
+              </div>
+            </div>
+
+            <button onclick="directToBrandCs('vibeats', 'Spotify Lyrics Minimalist (Rp 18.000)')" class="px-4 py-2.5 rounded-xl bg-gradient-to-r from-moonlight-red to-moonlight-burgundy hover:brightness-110 text-white text-xs font-semibold flex items-center gap-1.5 shadow-md shadow-moonlight-red/20 transition-all">
+              <i data-lucide="message-circle" class="w-3.5 h-3.5"></i>
+              <span>Pesan ke CS Vibeats</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- PRODUCT 5: Frame Your Memories Mini Flannel Book Keychain -->
+        <div class="product-card group relative rounded-3xl bg-space-900/90 border border-white/10 hover:border-moonlight-blue/50 backdrop-blur-xl overflow-hidden transition-all duration-300 flex flex-col justify-between" data-category="frame">
+          <div>
+            <div class="relative w-full aspect-[4/3] bg-space-950 overflow-hidden">
+              <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=600&q=80" alt="Flannel Photo Book" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+              
+              <div class="absolute top-3 left-3">
+                <span class="px-3 py-1 rounded-full text-[11px] font-mono font-semibold bg-moonlight-blueDark/80 text-sky-200 border border-moonlight-blue/40 backdrop-blur-md">
+                  Frame Your Memories
+                </span>
+              </div>
+
+              <div class="absolute bottom-3 left-3 right-3 p-2 rounded-xl bg-space-950/80 backdrop-blur-md border border-white/10 flex items-center justify-between text-xs">
+                <span class="text-slate-300 text-[11px]">Model Lipat / Pocket Frame</span>
+                <span class="font-mono text-[10px] text-sky-300 font-bold bg-sky-950/60 px-2 py-0.5 rounded border border-sky-500/30">CUSTOM BEADS</span>
+              </div>
+            </div>
+
+            <div class="p-6">
+              <h3 class="text-lg font-bold text-white group-hover:text-sky-300 transition-colors">
+                Flannel Photobooth Strip with Letter Beads
+              </h3>
+              <p class="text-slate-400 text-xs mt-2 leading-relaxed">
+                Frame photobooth strip kain flannel dengan tambahan gantungan manik-manik inisial nama kalian dan lonceng kecil yang lucu.
+              </p>
+              
+              <div class="flex items-center gap-2 mt-4 text-[11px] font-mono text-slate-400">
+                <span class="px-2 py-1 rounded-md bg-white/5">Custom Inisial Huruf</span>
+                <span class="px-2 py-1 rounded-md bg-white/5">Pilihan 6 Warna Kain</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="p-6 pt-0 border-t border-white/5 mt-4 flex items-center justify-between gap-3">
+            <div>
+              <span class="text-[10px] text-slate-500 block font-mono">TAG HARGA</span>
+              <div class="flex items-baseline gap-1.5">
+                <span class="text-xl font-mono font-bold text-white">Rp 28.000</span>
+                <span class="text-xs text-slate-500 line-through">Rp 35.000</span>
+              </div>
+            </div>
+
+            <button onclick="directToBrandCs('frame', 'Flannel Strip with Letter Beads (Rp 28.000)')" class="px-4 py-2.5 rounded-xl bg-gradient-to-r from-moonlight-blue to-moonlight-cyan hover:brightness-110 text-white text-xs font-semibold flex items-center gap-1.5 shadow-md shadow-moonlight-blue/20 transition-all">
+              <i data-lucide="message-circle" class="w-3.5 h-3.5"></i>
+              <span>Pesan ke CS Frame</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- PRODUCT 6: Couple Special Spotify + Flannel Charm -->
+        <div class="product-card group relative rounded-3xl bg-space-900/90 border border-white/10 hover:border-purple-400/50 backdrop-blur-xl overflow-hidden transition-all duration-300 flex flex-col justify-between" data-category="bundle">
+          <div>
+            <div class="relative w-full aspect-[4/3] bg-space-950 overflow-hidden">
+              <img src="https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?auto=format&fit=crop&w=600&q=80" alt="Couple Special" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+              
+              <div class="absolute top-3 left-3">
+                <span class="px-3 py-1 rounded-full text-[11px] font-mono font-semibold bg-gradient-to-r from-pink-600 to-indigo-600 text-white border border-white/20 backdrop-blur-md">
+                  Anniversary Special
+                </span>
+              </div>
+
+              <div class="absolute bottom-3 left-3 right-3 p-2 rounded-xl bg-space-950/80 backdrop-blur-md border border-white/10 flex items-center justify-between text-xs">
+                <span class="text-slate-300 text-[11px]">Pasangan / Sahabat Terdekat</span>
+                <span class="font-mono text-[10px] text-pink-300 font-bold bg-pink-950/60 px-2 py-0.5 rounded border border-pink-500/30">MATCHING PAIR</span>
+              </div>
+            </div>
+
+            <div class="p-6">
+              <h3 class="text-lg font-bold text-white group-hover:text-purple-300 transition-colors">
+                Matching Couple Keychain Pair Set
+              </h3>
+              <p class="text-slate-400 text-xs mt-2 leading-relaxed">
+                2 gantungan kunci sepasang yang saling melengkapi (bisa 2 Spotify Acrylic atau 1 Akrilik + 1 Flannel Frame dengan desain bertema sama).
+              </p>
+              
+              <div class="flex items-center gap-2 mt-4 text-[11px] font-mono text-slate-400">
+                <span class="px-2 py-1 rounded-md bg-white/5">Dapat 2 Gantungan Kunci</span>
+                <span class="px-2 py-1 rounded-md bg-white/5">Magnet Saling Nempel (Opsional)</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="p-6 pt-0 border-t border-white/5 mt-4 flex items-center justify-between gap-3">
+            <div>
+              <span class="text-[10px] text-slate-500 block font-mono">TAG HARGA</span>
+              <div class="flex items-baseline gap-1.5">
+                <span class="text-xl font-mono font-bold text-white">Rp 42.000</span>
+                <span class="text-xs text-slate-500 line-through">Rp 50.000</span>
+              </div>
+            </div>
+
+            <button onclick="openCsRoutingModal('Matching Couple Keychain Pair Set (Rp 42.000)')" class="px-4 py-2.5 rounded-xl bg-gradient-to-r from-pink-600 to-purple-600 hover:brightness-110 text-white text-xs font-semibold flex items-center gap-1.5 shadow-md shadow-pink-900/30 transition-all">
+              <i data-lucide="message-circle" class="w-3.5 h-3.5"></i>
+              <span>Pesan Pasangan</span>
+            </button>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- HOW TO ORDER & CUSTOM GUIDE (CARA PEMESANAN MUDAH) -->
+  <section id="how-to-order" class="relative z-10 py-20 border-t border-white/10">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-2xl mx-auto mb-16">
+        <span class="text-xs font-mono text-cyan-400 uppercase tracking-widest font-semibold block mb-2">✦ Simple Order Process</span>
+        <h2 class="text-3xl sm:text-4xl font-display font-bold text-white">Cara Pemesanan Custom Mudah</h2>
+        <p class="text-slate-400 text-sm mt-2">Hanya butuh 4 langkah mudah untuk mewujudkan gantungan kunci impianmu.</p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
+        <!-- Step 1 -->
+        <div class="p-6 rounded-3xl bg-space-900/60 border border-white/10 backdrop-blur-xl relative group hover:border-moonlight-red/40 transition-colors">
+          <div class="w-12 h-12 rounded-2xl bg-moonlight-burgundy/50 border border-moonlight-red/30 flex items-center justify-center font-mono font-bold text-pink-300 text-lg mb-4">
+            01
+          </div>
+          <h4 class="text-base font-bold text-white mb-2">Pilih Brand & Produk</h4>
+          <p class="text-xs text-slate-400 leading-relaxed">
+            Tentukan apakah kamu ingin gantungan akrilik Spotify (Vibeats) atau frame photobooth kain flannel (Frame Your Memories), atau paket combo.
+          </p>
+        </div>
+
+        <!-- Step 2 -->
+        <div class="p-6 rounded-3xl bg-space-900/60 border border-white/10 backdrop-blur-xl relative group hover:border-purple-500/40 transition-colors">
+          <div class="w-12 h-12 rounded-2xl bg-purple-950/50 border border-purple-500/30 flex items-center justify-center font-mono font-bold text-purple-300 text-lg mb-4">
+            02
+          </div>
+          <h4 class="text-base font-bold text-white mb-2">Klik CS Brand</h4>
+          <p class="text-xs text-slate-400 leading-relaxed">
+            Klik tombol order pada produk untuk langsung tersambung ke WhatsApp admin Customer Service brand yang kamu tuju tanpa repot simpan nomor.
+          </p>
+        </div>
+
+        <!-- Step 3 -->
+        <div class="p-6 rounded-3xl bg-space-900/60 border border-white/10 backdrop-blur-xl relative group hover:border-moonlight-blue/40 transition-colors">
+          <div class="w-12 h-12 rounded-2xl bg-moonlight-blueDark/50 border border-moonlight-blue/30 flex items-center justify-center font-mono font-bold text-sky-300 text-lg mb-4">
+            03
+          </div>
+          <h4 class="text-base font-bold text-white mb-2">Kirim Foto & Judul</h4>
+          <p class="text-xs text-slate-400 leading-relaxed">
+            Kirimkan foto resolusi terbaik, judul lagu Spotify atau request warna flannel & aksen manik kepada admin untuk dibuatkan preview desain.
+          </p>
+        </div>
+
+        <!-- Step 4 -->
+        <div class="p-6 rounded-3xl bg-space-900/60 border border-white/10 backdrop-blur-xl relative group hover:border-emerald-500/40 transition-colors">
+          <div class="w-12 h-12 rounded-2xl bg-emerald-950/50 border border-emerald-500/30 flex items-center justify-center font-mono font-bold text-emerald-300 text-lg mb-4">
+            04
+          </div>
+          <h4 class="text-base font-bold text-white mb-2">Produksi & Kirim</h4>
+          <p class="text-xs text-slate-400 leading-relaxed">
+            Setelah preview kamu setujui, pesanan langsung diproses cepat 1-3 hari kerja dan dikemas aman dengan bubble wrap ke alamatmu!
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ABOUT COLLABORATION SECTION -->
+  <section id="about-collab" class="relative z-10 py-20 bg-space-900/50 border-t border-white/10">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+        
+        <div>
+          <span class="text-xs font-mono text-pink-400 uppercase tracking-widest font-semibold block mb-2">✦ The Story Behind</span>
+          <h2 class="text-3xl sm:text-4xl font-display font-bold text-white leading-tight">
+            Dua Sahabat, Dua Karya Kreatif, Satu Kolaborasi Istimewa
+          </h2>
+          <p class="text-slate-300 text-sm sm:text-base mt-4 leading-relaxed">
+            Kolaborasi ini lahir dari obrolan santai dua sahabat yang memiliki kecintaan sama terhadap aksesoris aesthetic dan kenangan yang abadi.
+          </p>
+          <p class="text-slate-400 text-xs sm:text-sm mt-3 leading-relaxed">
+            Melalui <strong class="text-pink-300">Vibeats Keychain</strong>, kami menghadirkan sentuhan modern & musikal lewat gantungan akrilik berkualitas tinggi ber-barcode Spotify. Sementara melalui <strong class="text-sky-300">Frame Your Memories</strong>, kami menghadirkan kehangatan sentuhan handmade lewat kerajinan kain flannel kaku yang dirajut membentuk frame foto photobooth unik.
+          </p>
+          
+          <div class="mt-8 grid grid-cols-2 gap-4">
+            <div class="p-4 rounded-2xl bg-white/[0.03] border border-white/10">
+              <span class="text-2xl font-bold font-mono text-white block">100%</span>
+              <span class="text-xs text-slate-400">Custom Sesuai Keinginan Customer</span>
+            </div>
+            <div class="p-4 rounded-2xl bg-white/[0.03] border border-white/10">
+              <span class="text-2xl font-bold font-mono text-white block">Fast CS</span>
+              <span class="text-xs text-slate-400">Respon Ramah ke Admin Masing-Masing</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Visual Dual Brand Identity Badges -->
+        <div class="relative p-8 rounded-3xl bg-gradient-to-br from-moonlight-burgundy/30 via-space-950 to-moonlight-blueDark/30 border border-white/15 backdrop-blur-2xl shadow-2xl">
+          <div class="space-y-6">
+            <!-- Vibeats Spotlight -->
+            <div class="p-5 rounded-2xl bg-space-900/90 border border-moonlight-red/30 flex items-start gap-4">
+              <div class="w-12 h-12 rounded-xl bg-gradient-to-br from-moonlight-red to-moonlight-burgundy flex items-center justify-center shrink-0">
+                <i data-lucide="music-2" class="w-6 h-6 text-white"></i>
+              </div>
+              <div>
+                <h4 class="text-base font-bold text-white flex items-center gap-2">
+                  <span>Vibeats Keychain</span>
+                  <span class="text-[10px] font-mono px-2 py-0.5 rounded bg-pink-500/20 text-pink-300">Akrilik Spotify</span>
+                </h4>
+                <p class="text-xs text-slate-300 mt-1">Fokus pada estetika musik, barcode Spotify scan aktif, dan cetak foto akrilik ultra-tajam.</p>
+                <div class="mt-2 text-xs font-mono text-pink-400 flex items-center gap-1">
+                  <i data-lucide="instagram" class="w-3.5 h-3.5"></i> @vibeats.keychain
+                </div>
+              </div>
+            </div>
+
+            <!-- Frame Memories Spotlight -->
+            <div class="p-5 rounded-2xl bg-space-900/90 border border-moonlight-blue/30 flex items-start gap-4">
+              <div class="w-12 h-12 rounded-xl bg-gradient-to-br from-moonlight-blue to-moonlight-cyan flex items-center justify-center shrink-0">
+                <i data-lucide="images" class="w-6 h-6 text-white"></i>
+              </div>
+              <div>
+                <h4 class="text-base font-bold text-white flex items-center gap-2">
+                  <span>Frame Your Memories</span>
+                  <span class="text-[10px] font-mono px-2 py-0.5 rounded bg-sky-500/20 text-sky-300">Handmade Felt</span>
+                </h4>
+                <p class="text-xs text-slate-300 mt-1">Fokus pada kerajinan tangan kain flannel kaku, jahitan presisi, dan frame foto strip ala photobox.</p>
+                <div class="mt-2 text-xs font-mono text-sky-400 flex items-center gap-1">
+                  <i data-lucide="instagram" class="w-3.5 h-3.5"></i> @frameyourmemories.id
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CUSTOMER SERVICE ROUTING MODAL (PILIH TUJUAN CS BRAND) -->
+  <div id="cs-modal" class="fixed inset-0 z-50 hidden flex items-center justify-center p-4 bg-black/80 backdrop-blur-md">
+    <div class="relative w-full max-w-lg rounded-3xl bg-space-900 border border-white/20 p-6 sm:p-8 shadow-2xl overflow-hidden animate-glow-pulse" style="animation-iteration-count: 1;">
+      
+      <!-- Close Button -->
+      <button onclick="closeCsModal()" class="absolute top-5 right-5 p-2 rounded-xl bg-white/5 border border-white/10 text-slate-400 hover:text-white transition-colors">
+        <i data-lucide="x" class="w-5 h-5"></i>
+      </button>
+
+      <!-- Modal Header -->
+      <div class="mb-6">
+        <span class="text-xs font-mono text-pink-400 font-semibold uppercase tracking-wider block mb-1">
+          ✦ Direct Customer Service
+        </span>
+        <h3 class="text-2xl font-display font-bold text-white">Hubungi Admin Brand</h3>
+        <p id="modal-subtitle" class="text-xs sm:text-sm text-slate-300 mt-1">
+          Pilih kontak Customer Service sesuai produk yang ingin kamu pesan atau konsultasikan:
+        </p>
+      </div>
+
+      <!-- Selected Product Info Tag -->
+      <div id="modal-selected-product" class="hidden mb-5 p-3 rounded-xl bg-white/5 border border-white/10 flex items-center justify-between text-xs">
+        <span class="text-slate-400 font-mono">Produk:</span>
+        <span id="modal-product-name" class="font-bold text-white truncate max-w-[280px]">Nama Produk</span>
+      </div>
+
+      <!-- 2 Dedicated Brand Channels -->
+      <div class="space-y-4">
+        
+        <!-- VIBEATS CS CHANNEL -->
+        <div class="p-4 rounded-2xl bg-gradient-to-r from-moonlight-burgundy/40 to-space-950 border border-moonlight-red/40 hover:border-moonlight-red transition-all flex items-center justify-between gap-4 group">
+          <div class="flex items-center gap-3.5">
+            <div class="w-12 h-12 rounded-xl bg-gradient-to-br from-moonlight-red to-moonlight-burgundy flex items-center justify-center text-white shadow-md shadow-moonlight-red/30">
+              <i data-lucide="music-2" class="w-6 h-6"></i>
+            </div>
+            <div>
+              <h4 class="text-sm font-bold text-white group-hover:text-pink-300 transition-colors">CS Vibeats Keychain</h4>
+              <p class="text-[11px] text-slate-400">Khusus Akrilik Spotify Barcode</p>
+              <span class="text-[10px] text-emerald-400 font-mono flex items-center gap-1 mt-0.5">
+                <span class="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse"></span> Online WhatsApp
+              </span>
+            </div>
+          </div>
+
+          <button onclick="executeCsRedirect('vibeats')" class="px-4 py-2 rounded-xl bg-moonlight-red hover:bg-rose-600 text-white text-xs font-semibold shrink-0 flex items-center gap-1.5 shadow-md transition-all">
+            <i data-lucide="message-square" class="w-3.5 h-3.5"></i>
+            <span>Chat WA</span>
+          </button>
+        </div>
+
+        <!-- FRAME YOUR MEMORIES CS CHANNEL -->
+        <div class="p-4 rounded-2xl bg-gradient-to-r from-moonlight-blueDark/40 to-space-950 border border-moonlight-blue/40 hover:border-moonlight-cyan transition-all flex items-center justify-between gap-4 group">
+          <div class="flex items-center gap-3.5">
+            <div class="w-12 h-12 rounded-xl bg-gradient-to-br from-moonlight-blue to-moonlight-cyan flex items-center justify-center text-white shadow-md shadow-moonlight-blue/30">
+              <i data-lucide="images" class="w-6 h-6"></i>
+            </div>
+            <div>
+              <h4 class="text-sm font-bold text-white group-hover:text-sky-300 transition-colors">CS Frame Your Memories</h4>
+              <p class="text-[11px] text-slate-400">Khusus Handmade Flannel Photobooth</p>
+              <span class="text-[10px] text-emerald-400 font-mono flex items-center gap-1 mt-0.5">
+                <span class="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse"></span> Online WhatsApp
+              </span>
+            </div>
+          </div>
+
+          <button onclick="executeCsRedirect('frame')" class="px-4 py-2 rounded-xl bg-moonlight-blue hover:bg-sky-600 text-white text-xs font-semibold shrink-0 flex items-center gap-1.5 shadow-md transition-all">
+            <i data-lucide="message-square" class="w-3.5 h-3.5"></i>
+            <span>Chat WA</span>
+          </button>
+        </div>
+
+        <!-- COLLAB CS / COMBO CHANNEL -->
+        <div class="p-3.5 rounded-2xl bg-white/[0.04] border border-white/10 hover:border-purple-400/50 transition-all flex items-center justify-between gap-3">
+          <div class="flex items-center gap-2.5">
+            <div class="w-8 h-8 rounded-lg bg-gradient-to-r from-pink-500 to-indigo-500 flex items-center justify-center text-white">
+              <i data-lucide="sparkles" class="w-4 h-4"></i>
+            </div>
+            <div>
+              <h5 class="text-xs font-bold text-white">Mau Order Keduanya (Combo)?</h5>
+              <p class="text-[10px] text-slate-400">Chat admin manapun, kami bantu koordinasikan satu kali ongkir!</p>
+            </div>
+          </div>
+          <button onclick="executeCsRedirect('collab')" class="text-xs font-semibold text-pink-300 hover:text-white underline">
+            Pesan Sekaligus &rarr;
+          </button>
+        </div>
+
+      </div>
+
+      <div class="mt-6 text-center">
+        <p class="text-[11px] text-slate-500">
+          💡 Tips: Format pesan order custom akan terisi secara otomatis begitu kamu klik chat!
+        </p>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- FLOATING QUICK CS BUTTON (Always Accessible) -->
+  <div class="fixed bottom-6 right-6 z-40 flex flex-col items-end gap-2">
+    <!-- Quick tooltip -->
+    <div id="cs-floating-tooltip" class="hidden sm:block py-1.5 px-3 rounded-xl bg-space-900/90 border border-white/15 text-[11px] text-slate-200 backdrop-blur-md shadow-lg font-mono">
+      💬 Mau custom keychain? Chat CS yuk!
+    </div>
+
+    <!-- Main Floating Trigger -->
+    <button onclick="openCsRoutingModal()" class="group relative p-4 rounded-2xl bg-gradient-to-r from-moonlight-red via-moonlight-purple to-moonlight-blue text-white shadow-2xl shadow-pink-600/40 hover:scale-105 active:scale-95 transition-all flex items-center gap-2.5 border border-white/20">
+      <i data-lucide="message-circle" class="w-6 h-6 animate-bounce"></i>
+      <span class="hidden md:inline-block font-semibold text-sm">Customer Service</span>
+      <span class="absolute -top-1 -right-1 w-3.5 h-3.5 rounded-full bg-emerald-400 border-2 border-space-950"></span>
+    </button>
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="relative z-10 bg-space-950 border-t border-white/10 pt-16 pb-12">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-10 mb-12">
+        <!-- Collab Info -->
+        <div class="md:col-span-2">
+          <div class="flex items-center gap-2 mb-3">
+            <span class="font-display font-bold text-xl bg-gradient-to-r from-moonlight-red via-pink-400 to-rose-300 bg-clip-text text-transparent">Vibeats</span>
+            <span class="text-slate-400 font-mono">×</span>
+            <span class="font-display font-bold text-xl bg-gradient-to-r from-sky-400 via-moonlight-blue to-indigo-300 bg-clip-text text-transparent">Frame Your Memories</span>
+          </div>
+          <p class="text-slate-400 text-xs sm:text-sm leading-relaxed max-w-sm">
+            Website kolaborasi resmi dua brand gantungan kunci: Akrilik Spotify Barcode & Handmade Flannel Photobooth Frame. Abadikan momen dan nada terbaik dalam satu genggaman.
+          </p>
+          <div class="mt-4 flex items-center gap-3">
+            <span class="w-3 h-3 rounded-full bg-moonlight-red"></span>
+            <span class="w-3 h-3 rounded-full bg-moonlight-burgundy"></span>
+            <span class="w-3 h-3 rounded-full bg-moonlight-purple"></span>
+            <span class="w-3 h-3 rounded-full bg-moonlight-blue"></span>
+            <span class="w-3 h-3 rounded-full bg-moonlight-cyan"></span>
+          </div>
+        </div>
+
+        <!-- Quick Contacts: Vibeats -->
+        <div>
+          <h4 class="text-sm font-bold text-white font-mono mb-3 uppercase tracking-wider flex items-center gap-2">
+            <i data-lucide="music-2" class="w-4 h-4 text-moonlight-red"></i>
+            <span>Vibeats Keychain</span>
+          </h4>
+          <ul class="space-y-2 text-xs text-slate-400">
+            <li><button onclick="directToBrandCs('vibeats', 'Konsultasi')" class="hover:text-pink-300 transition-colors">WhatsApp CS Vibeats</button></li>
+            <li><a href="#" class="hover:text-pink-300 transition-colors">Instagram: @vibeats.keychain</a></li>
+            <li>Spesialisasi: Akrilik Spotify Barcode 3mm</li>
+            <li>Estimasi Pengerjaan: 1-2 Hari</li>
+          </ul>
+        </div>
+
+        <!-- Quick Contacts: Frame Memories -->
+        <div>
+          <h4 class="text-sm font-bold text-white font-mono mb-3 uppercase tracking-wider flex items-center gap-2">
+            <i data-lucide="images" class="w-4 h-4 text-moonlight-cyan"></i>
+            <span>Frame Your Memories</span>
+          </h4>
+          <ul class="space-y-2 text-xs text-slate-400">
+            <li><button onclick="directToBrandCs('frame', 'Konsultasi')" class="hover:text-sky-300 transition-colors">WhatsApp CS Frame Memories</button></li>
+            <li><a href="#" class="hover:text-sky-300 transition-colors">Instagram: @frameyourmemories.id</a></li>
+            <li>Spesialisasi: Handmade Flannel Photobooth</li>
+            <li>Estimasi Pengerjaan: 2-3 Hari</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="border-t border-white/5 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-500 font-mono">
+        <p>&copy; 2026 Vibeats Keychain × Frame Your Memories. All rights reserved.</p>
+        <p class="flex items-center gap-1">
+          Made with <i data-lucide="heart" class="w-3 h-3 text-moonlight-red fill-moonlight-red"></i> for memories that last forever.
+        </p>
+      </div>
+
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  <script>
+    // Initialize Lucide icons
+    lucide.createIcons();
+  </script>
+</body>
+</html>
+
